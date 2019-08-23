@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MoreMe2SDK/Classes/**/*'
+  # s.source_files = 'MoreMe2SDK/Classes/**/*'
   
   s.vendored_frameworks = 'MoreMe2SDK/Classes/*.framework'
 

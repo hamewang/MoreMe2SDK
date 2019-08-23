@@ -1,6 +1,0 @@
-framework module MoremeSDK {
-  umbrella header "MoremeSDK.h"
-
-  export *
-  module * { export * }
-}
