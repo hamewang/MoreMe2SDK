@@ -25,18 +25,24 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '304635659@qq.com' => '304635659@qq.com' }
-  s.source           = { :git => 'https://github.com/304635659@qq.com/MoreMe2SDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hamewang/MoreMe2SDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MoreMe2SDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MoreMe2SDK' => ['MoreMe2SDK/Assets/*.png']
-  # }
+  s.vendored_frameworks = 'MoreMe2SDK/Classes/*.framework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'MoreMe2SDK/Classes/*.bundle'
+  
+  s.dependency 'AFNetworking','3.2.1'
+  s.dependency 'AliyunOSSiOS','2.10.7'
+  s.dependency 'OpenCV','4.1.0'
+  s.dependency 'GPUImage','0.1.7'
+  s.dependency 'SVProgressHUD','2.2.5'
+  s.dependency 'CocoaSecurity','1.2.4'
+  s.dependency 'SDWebImage','4.4.7'
+  s.static_framework  =  true
+  
 end

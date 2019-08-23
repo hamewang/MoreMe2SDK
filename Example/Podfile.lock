@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.7)
+  - CocoaSecurity (1.2.4)
+  - GPUImage (0.1.7)
+  - MoreMe2SDK (0.1.0):
+    - AFNetworking (= 3.2.1)
+    - AliyunOSSiOS (= 2.10.7)
+    - CocoaSecurity (= 1.2.4)
+    - GPUImage (= 0.1.7)
+    - OpenCV (= 4.1.0)
+    - SDWebImage (= 4.4.7)
+    - SVProgressHUD (= 2.2.5)
+  - OpenCV (4.1.0)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - MoreMe2SDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - CocoaSecurity
+    - GPUImage
+    - OpenCV
+    - SDWebImage
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  MoreMe2SDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  MoreMe2SDK: 2354b65ca8e03a7dad4a7a244e4e41140a626693
+  OpenCV: 52cd4d72ff29e2be83421477aec5447320b7fb19
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 2a39c92786735d99589950566a8ab3f0e56539c5
+
+COCOAPODS: 1.7.3

@@ -5,9 +5,4 @@ platform :ios, '8.0'
 target 'MoreMe2SDK_Example' do
   pod 'MoreMe2SDK', :path => '../'
 
-  target 'MoreMe2SDK_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
