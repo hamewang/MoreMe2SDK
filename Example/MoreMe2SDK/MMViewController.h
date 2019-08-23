@@ -8,6 +8,9 @@
 
 @import UIKit;
 
-@interface MMViewController : UIViewController
-
+@interface MMViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+    @property (nonatomic,strong)UICollectionView *collectionView;
+    //存放数据数组
+    @property (nonatomic,strong)NSMutableArray *layout;
+    
 @end
